@@ -1,0 +1,48 @@
+h1 {
+    
+        text-align: center;
+    }
+    
+    #iq-tile, #prog, #network, #tech  {
+        height: 250px;
+        width: 100%;
+        margin-bottom: 15px;
+        position: relative;
+        border: 2px solid #D81B60;
+        overflow: hidden;
+      }
+    
+      #iq-tile:hover, #prog:hover, #network:hover, #tech:hover {
+        box-shadow: 5px 3px 5px 3px #cccccc;
+      }
+      
+    
+      #iq-tile {
+        background: url('/assets/iqpg.jpg') no-repeat;
+        background-position: center;
+      }
+      #prog {
+        background: url('/assets/prog.jpg') no-repeat;
+        background-position: center;
+      }
+      #network {
+        background: url('/assets/network.jpg') no-repeat;
+        background-position: center;
+      }
+      #tech {
+        background: url('/assets/tech.jpg') no-repeat;
+        background-position: center;
+      }
+    
+      #iq-tile span, #prog span,  #network span, #tech span {
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        width: 100%;
+        text-align: center;
+        font-size: 1.6em;
+        text-transform: uppercase;
+        background-color: #000;
+        color: #fff;
+        opacity: .8;
+      }
